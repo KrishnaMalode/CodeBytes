@@ -1,11 +1,3 @@
-list = []
-n = int(input("Enter no of elements you want to add in list: "))
-
-for item in range(0,n):
-    ele = int(input())
-    list.append(ele)
-
-print(f'list = {list}')
 
 ## method 1 = use sorted function to sort elements in list in ascending order and return last element
 def largest_element(list):
@@ -24,3 +16,19 @@ def largest_element2(list):
     print(f'{max} is the largest element in the array')
 
 largest_element2(list)
+
+def main():
+    list = []
+    n = int(input("Enter no of elements you want to add in list: "))
+
+    for i in range(0,n):
+        try:
+            ele = int(input())
+            if (type(ele)!= int):
+                raise ValueError("Enter an integer")
+            list.append(ele)
+        except ValueError as e:
+            print(f'Invalid input {e}')
+
+if __name__ == "__main__":
+    main()
