@@ -1,11 +1,11 @@
 ## to check if the array is sorted
 def solution(list):
     #step1 = check if condition sorted initial i>i-1 index
-    count = 0
-    for i in range(0,len(list)+1):
-        if list[i+1]<list[i]:
+    count = 0 # count represents the number of times list [i] > list[i+1]
+    for i in range(0,len(list)):
+        if list[i]<list[i-1]:
             count += 1
-        sorted_list = sorted(list)
+    sorted_list = sorted(list)
     if count ==1:
         sol = False
         # to rotate in possible combinations from 0 to len(list)
