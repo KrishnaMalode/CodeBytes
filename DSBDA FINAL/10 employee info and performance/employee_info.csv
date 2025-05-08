@@ -1,0 +1,6 @@
+EmployeeID,Name,Department,Age,JoinDate
+301,John,HR,34.0,2015-06-01
+302,Jane,Engineering,29.0,2018-09-15
+303,Mike,Sales,40.0,2016-01-20
+304,Sara,sales,26.0,2020-11-30
+305,Paul,Finance,,

@@ -1,0 +1,6 @@
+PatientID,Name,Age,Gender
+1001,Tom,30.0,M
+1002,Jerry,122.0,F
+1003,Anna,28.0,Male
+1004,Sam,,female
+1005,Kate,25.0,F

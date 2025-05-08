@@ -1,0 +1,6 @@
+ApplicationID,Name,GPA,Admission_Status
+501,Rita,3.6,Admitted
+502,Sam,3.8,Rejected
+503,Liam,3.0,Admitted
+504,Nina,3.5,Rejected
+505,Tom,,Admitted

@@ -1,0 +1,6 @@
+CustomerID,Name,Email,Age,City
+1,Alice,alice@gmail.com,25.0,New York
+2,Bob,bob_at_gmail.com,,newyork
+3,Charlie,charlie@gmail.com,32.0,Los Angeles
+4,David,,29.0,Chicago
+5,Eva,eva@gmail.com,40.0,Chicago
